@@ -1,5 +1,4 @@
-#flask frameworkünü kullandığım için ekledim ve javascrpipt object notation olarak belirttim
-from flask import Flask, request, jsonify  
+from flask import Flask, request, jsonify  #flask frameworkünü kullandığım için ekledim ve javascrpipt objeck notation olarak belirttim
 
 app = Flask(__name__)
 # https://www.geeksforgeeks.org/flask-app-routing/ bu kısımdan yararlandım
