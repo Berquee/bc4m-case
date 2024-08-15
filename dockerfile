@@ -1,5 +1,5 @@
 # Base image
-FROM python:3.9
+FROM python:3.9-alpine
 
 # Set working directory
 WORKDIR /app
@@ -18,3 +18,16 @@ EXPOSE 5000
 
 # Run the application
 CMD ["python", "app.py"]
+
+
+
+
+
+
+
+
+
+
+
+
+

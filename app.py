@@ -1,8 +1,9 @@
-from flask import Flask, request, jsonify  #flask frameworkünü kullandığım için ekledim ve javascrpipt objeck notation olarak belirttim
+#flask frameworkünü kullandığım için ekledim ve javascrpipt object notation olarak belirttim
+from flask import Flask, request, jsonify  
 
 app = Flask(__name__)
-
-@app.route('/', methods=['GET'])   # https://www.geeksforgeeks.org/flask-app-routing/ bu kısımdan yararlandım
+# https://www.geeksforgeeks.org/flask-app-routing/ bu kısımdan yararlandım
+@app.route('/', methods=['GET'])   
 def home():
     return jsonify({"msg": "BC4M"})
 
@@ -16,7 +17,8 @@ def post_data():
     return jsonify(data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
 
 
 
