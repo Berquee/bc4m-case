@@ -1,4 +1,4 @@
-## I deployed the application to google cloud service using docker, you can access it from the link here  [this link](http:/http://35.184.71.101//)
+## I deployed the application to google cloud service using docker, you can access it from the link here  [this link](http://35.184.71.101)
 
 # How To Execute
 
