@@ -21,7 +21,8 @@ After running this command, the Docker image of the API will be pulled and run o
 
 2- Requests to the /health path with the GET method return a fixed response, application health check can be performed:
 {"status": "healthy"}
-Screenshot ++
+![localhosthealth](https://github.com/user-attachments/assets/227ae55c-34bf-428f-85d5-0c841f7ba296)
+
 #### POST Methods
 1- In requests sent to the / path with the POST method, the Json body sent to the API is sent back as a response.
 ###### Example:
