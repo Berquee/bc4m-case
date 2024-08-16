@@ -17,7 +17,8 @@ After running this command, the Docker image of the API will be pulled and run o
 #### GET Methods
 1- Requests to the / path with the GET method in the API will send a fixed message:
 {"msg":"BC4M"}
-Screenshot ++
+![localhost5000](https://github.com/user-attachments/assets/80852f9f-0693-4631-8180-62c6580d4f0e)
+
 2- Requests to the /health path with the GET method return a fixed response, application health check can be performed:
 {"status": "healthy"}
 Screenshot ++
