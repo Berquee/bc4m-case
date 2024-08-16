@@ -26,4 +26,5 @@ After running this command, the Docker image of the API will be pulled and run o
 #### POST Methods
 1- In requests sent to the / path with the POST method, the Json body sent to the API is sent back as a response.
 ###### Example:
-Screenshot ++
+![1](https://github.com/user-attachments/assets/90ea62dc-5414-4b1a-9512-49f9ebca74df)
+![2](https://github.com/user-attachments/assets/a7195a3f-a73a-49e3-a36d-4ed08ef616da)
